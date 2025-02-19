@@ -1,15 +1,6 @@
 {
     "routes": [
       { "src": "/", "dest": "/public/loginpage.html" }
-    ],
-    "headers": [
-      {
-        "source": "/public/(.*)\\.(css|js|html)",
-        "headers": [
-          { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
-        ]
-      }
-    ],
-    "cleanUrls": true
+    ]
   }
   
