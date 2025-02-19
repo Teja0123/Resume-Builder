@@ -1,6 +1,6 @@
 {
     "routes": [
-      { "src": "/", "dest": "/loginpage.html" }
+      { "src": "/", "dest": "./public/loginpage.html" }
     ]
   }
   
