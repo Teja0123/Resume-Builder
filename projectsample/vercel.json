@@ -1,6 +1,6 @@
 {
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/login.html" }
+    "routes": [
+      { "src": "/(.*)", "dest": "/loginpage.html" }
     ],
     "headers": [
       {
