@@ -1,13 +1,14 @@
 {
     "rewrites": [
-      { "source": "/(.*)", "destination": "/login/loginpage.html" }
+      { "source": "/(.*)", "destination": "/login.html" }
     ],
     "headers": [
       {
-        "source": "/(.*).(css|js)",
+        "source": "/(.*)\\.(css|js)",
         "headers": [
           { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
         ]
       }
     ]
   }
+  
